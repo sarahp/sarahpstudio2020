@@ -1,14 +1,13 @@
-import "./styles/styles.scss";
-import React from "react";
-import logo from "./images/sarahplogo_site.png";
 import headshot from "./images/headshot_4.png";
-import medium from "./images/medium.svg";
+import hunter from "./images/hunter.png";
 import linkedin from "./images/linkedin.svg";
 import lit from "./images/lit.png";
+import medium from "./images/medium.svg";
 import react from "./images/react.png";
+import logo from "./images/sarahplogo_site.png";
 import upenn from "./images/upenn.png";
-import hunter from "./images/hunter.png";
 import xepi from "./images/xepi.png";
+import "./styles/styles.scss";
 
 const IndexPage = () => {
   return (
@@ -34,11 +33,7 @@ const IndexPage = () => {
             </div>
             <div className="navigation">
               <ul className="nav">
-
-                <li className="nav-item"><a href="https://sarahpeony.com/" target="_blank"
-                  rel="noopener noreferrer">The Peony Art Experience</a></li>
-                <li className="nav-item"><a href="https://github.com/sarahp/peonythemet" target="_blank"
-                  rel="noopener noreferrer">The Peony Art Experience Code</a></li>
+                <li className="nav-item"><a href="https://github.com/sarahp/todo">ToDo App React Example</a></li>
                 <li className="nav-item"><a href="https://sarahpstudio.s3.amazonaws.com/SarahPeonyResume2024.pdf"
                   target="_blank" rel="noopener noreferrer">Resumé PDF</a></li>
                 <li className="nav-item"><a href="https://github.com/sarahp" target="_blank"
@@ -64,27 +59,25 @@ const IndexPage = () => {
               <p>My love of programming started with learning FrontEnd development. I've since
                 built sites for major national brands. Created membership databases, basic retail sites, and beyond.
                 Personally, I've been digging into React and using it with the MetAPI to explore alternate ways of viewing
-                the collection online. Checkout my code walkthrough below to see <a
-                  href="https://sarahpeony.com/" target="_blank" rel="noopener noreferrer">The Peony
-                  Art Experience</a> and the <a href="https://metmuseum.github.io/" target="_blank"
-                    rel="noopener noreferrer">theMetAPI</a> in action.</p>
+                the collection online. Checkout my code walkthroughs on YouTube to see some examples.</p>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/sarahp/todo">ToDo App React Example Github</a>
+                <br></br>
               <div id="video-player">
-                <iframe title="Code Walk Through of the Peony Art Experience" width="560" height="315" src="https://www.youtube.com/embed/duvf_QdQpkk" frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4WQy931nKjw?si=_C5G1NkCQa59k53o" title="YouTube Code Walkthroughs" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin"></iframe>
               </div>
               <h3>My favorite Frontend Technologies</h3>
-              <p><a href="https://lit.dev/" target="_blank" rel="noopener noreferrer">Lit</a>.
-                During my tenure at Phase2, I immersed myself in the world of web components using Lit, a TypeScript-based framework comparable to React, which I found particularly compelling for enhancing web aesthetics. Our work involved crafting elegant and reusable UI elements, contributing to visually appealing and functional user experiences for internationally recognized enterprise clients. Utilizing Storybook as our platform, we housed Lit web components and design systems, allowing us to efficiently develop and showcase our creations. This experience not only honed my skills in web development but also provided valuable insights into creating scalable and maintainable design systems for large-scale projects.
-              </p><a href="https://lit.dev/docs/v1/lit-html/introduction/" target="_blank" rel="noopener noreferrer"><img
-                className="portfolio-image" src={lit.src}
-                alt="img of the frontpage of the Lit website."></img></a>
 
               <p><a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">React/NextJS</a>.
                 When it comes to my personal projects, React via Next.js has become my go-to framework. Currently, I'm immersed in the development of Neurospicy Chores, a project aimed at enhancing productivity, particularly for neurodiverse individuals. Leveraging the power of React and integrating OpenAI and Firebase technologies, I'm crafting a user-friendly interface and robust functionality to simplify chore management. Next.js provides the perfect ecosystem for this endeavor, offering server-side rendering, routing, and other features that facilitate rapid development and seamless user experiences. Through this project, I'm not only expanding my skills in React development but also exploring innovative ways to tackle real-world challenges through technology. In the meantime, you can explore my past personal project code like the <a href="https://github.com/sarahp/peonythemet">Peony Art Experience</a>, the <a href="https://github.com/sarahp/perpay-dashboard">User Dashboard</a>, and more recently <a href="https://github.com/sarahp/sarahpstudio2024">this site</a> to get a sense of how I work with React and build engaging user interfaces.
               </p><a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer"><img
                 className="portfolio-image" src={react.src}
                 alt="img of the frontpage of the NextJS website."></img></a>
+
+              <p><a href="https://lit.dev/" target="_blank" rel="noopener noreferrer">Lit</a>.
+                During my tenure at Phase2, I immersed myself in the world of web components using Lit, a TypeScript-based framework comparable to React, which I found particularly compelling for enhancing web aesthetics. Our work involved crafting elegant and reusable UI elements, contributing to visually appealing and functional user experiences for internationally recognized enterprise clients. Utilizing Storybook as our platform, we housed Lit web components and design systems, allowing us to efficiently develop and showcase our creations. This experience not only honed my skills in web development but also provided valuable insights into creating scalable and maintainable design systems for large-scale projects.
+              </p><a href="https://lit.dev/docs/v1/lit-html/introduction/" target="_blank" rel="noopener noreferrer"><img
+                className="portfolio-image" src={lit.src}
+                alt="img of the frontpage of the Lit website."></img></a>
 
               <h3>My favorite Site Examples</h3>
               <p><a href="https://www.curf.upenn.edu/" target="_blank" rel="noopener noreferrer">Upenn CURF</a>. For any
